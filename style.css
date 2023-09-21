@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap%27');
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400&family=Raleway:wght@400;700&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Inter;
+}
+#menuPrincipal{
+    background-color: #303030;
+    padding: 75px;
+}
+#tituloPrincipal{
+    margin-top: 70px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    color: #FFF;
+}
+#frasePrincipal{
+    color: #FFF;
+    margin-top: 20px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+}
+#MENU-INFORMATIVO{
+    display: grid; 
+    grid-auto-flow: column;
+    columns: auto;
+    background: #F9F9F9;
+    padding: 80px;
+  }
+  #PrincipalConteudo{
+    color: #000;
+    display: grid; 
+    grid-auto-flow: column;
+    columns: auto;
+    padding-bottom: 100px;
+  }
+  #TituloConteudo{
+    padding-left: 75px;
+    padding-top: 180px;
+    font-size: 40px;
+  }
+#ConteudoFrase{
+    padding-left: 75px;
+    padding-top: 25px;
+    font-size: 28px;
+    }
+#imagem{
+    margin-top: 65px;
+    margin-right: -40px;
+}
+#MenuFORMULARIO{
+    background: #303030;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+#TituloFORMULARIO{
+    text-align: center;
+    color: #FFF;
+    font-size: 48px;
+    padding-bottom: 50px;
+}
+input{
+    width: 508px;
+    height: 72px;
+    margin: 15px;
+    background-color: #FFF;
+    border: 0px;
+    border-radius: 10px;
+    padding-left: 20px;
+    font-family: Raleway;
+    font-weight: 700;
+    margin: 30px;
+}
+button{
+    width: 286px;
+    height: 74px;
+    margin:  15px ;
+    background:#C07212;
+    border: none;
+    border-radius: 10px;
+    color: #FFF;
+    cursor: pointer;
+}
+button:hover{
+    transform: translateY(-4px);
+    box-shadow: 0px 15px 15px #c0721260;
+    transition-duration: 0.5s;
+}
+    
